@@ -1,8 +1,37 @@
+
+The dataset includes the following files:
+
+'README.txt'
+
+'features_info.txt': Shows information about the variables used on the feature vector.
+
+'features.txt': List of all features.
+
+'activity_labels.txt': Links the class labels with their activity name.
+
+'train/X_train.txt': Training set.
+
+'train/y_train.txt': Training labels.
+
+'test/X_test.txt': Test set.
+
+'test/y_test.txt': Test labels.
+
+The following files are available for the train and test data. Their descriptions are equivalent.
+
 train/X_train.txt with test/X_test.txt -- the result is a 10299 x 561 data frame, as in the original description ("Number of Instances: 10299" and "Number of Attributes: 561")
 
 train/subject_train.txt with test/subject_test.txt -- the result is a 10299 x 1 data frame with subject IDs,
 
 train/y_train.txt with test/y_test.txt -- the result is also a 10299 x 1 data frame with activity IDs.
+
+
+'train/Inertial Signals/total_acc_x_train.txt': The acceleration signal from the smartphone accelerometer X axis in standard gravity units 'g'. Every row shows a 128 element vector. The same description applies for the 'total_acc_x_train.txt' and 'total_acc_z_train.txt' files for the Y and Z axis.
+
+'train/Inertial Signals/body_acc_x_train.txt': The body acceleration signal obtained by subtracting the gravity from the total acceleration.
+
+'train/Inertial Signals/body_gyro_x_train.txt': The angular velocity vector measured by the gyroscope for each window sample. The units are radians/second.
+
 
 <ul>
 <li>label</li>
@@ -29,23 +58,23 @@ train/y_train.txt with test/y_test.txt -- the result is also a 10299 x 1 data fr
 <li>tBodyGyro-mean()-Y</li>
 <li>tBodyGyro-mean()-Z</li>
 <li>tBodyGyro-std()-X</li>
-tBodyGyro-std()-Y
-tBodyGyro-std()-Z
-tBodyGyroJerk-mean()-X
-tBodyGyroJerk-mean()-Y
-tBodyGyroJerk-mean()-Z
-tBodyGyroJerk-std()-X
-tBodyGyroJerk-std()-Y
-tBodyGyroJerk-std()-Z
-tBodyAccMag-mean()
-tBodyAccMag-std()
-tGravityAccMag-mean()
-tGravityAccMag-std()
-tBodyAccJerkMag-mean()
-tBodyAccJerkMag-std()
-tBodyGyroMag-mean()
-tBodyGyroMag-std()
-tBodyGyroJerkMag-mean()
+<li>tBodyGyro-std()-Y</li>
+<li>tBodyGyro-std()-Z</li>
+<li>tBodyGyroJerk-mean()-X</li>
+<li>tBodyGyroJerk-mean()-Y</li>
+<li>tBodyGyroJerk-mean()-Z</li>
+<li>tBodyGyroJerk-std()-X</li>
+<li>tBodyGyroJerk-std()-Y</li>
+<li>tBodyGyroJerk-std()-Z</li>
+<li>tBodyAccMag-mean()</li>
+<li>tBodyAccMag-std()</li>
+<li>tGravityAccMag-mean()</li>
+<li>tGravityAccMag-std()</li>
+<li>tBodyAccJerkMag-mean()</li>
+<li>tBodyAccJerkMag-std()</li>
+<li>tBodyGyroMag-mean()</li>
+<li>tBodyGyroMag-std()</li>
+<li>tBodyGyroJerkMag-mean()</li>
 tBodyGyroJerkMag-std()
 fBodyAcc-mean()-X
 fBodyAcc-mean()-Y

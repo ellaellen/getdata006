@@ -4,9 +4,9 @@ train/subject_train.txt with test/subject_test.txt -- the result is a 10299 x 1 
 
 train/y_train.txt with test/y_test.txt -- the result is also a 10299 x 1 data frame with activity IDs.
 
-
-label
-subject
+<ul>
+<li>label</li>
+<li>subject</li>
 tBodyAcc-mean()-X
 tBodyAcc-mean()-Y
 tBodyAcc-mean()-Z
@@ -73,3 +73,4 @@ fBodyBodyGyroMag-mean()
 fBodyBodyGyroMag-std()
 fBodyBodyGyroJerkMag-mean()
 fBodyBodyGyroJerkMag-std()
+</ul>

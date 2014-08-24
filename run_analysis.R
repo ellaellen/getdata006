@@ -41,4 +41,4 @@ write.table(tidydata, "tidy_data_set.txt")
 #unique_subjects <- unique(subject_merged)[,1]
 average_results <- aggregate(x_merged, by = list(activity = y_merged[,1], subject = subject_merged[,1]), mean)
 
-write.table(average_results, "average_data_set.txt")
+write.table(average_results, "average_data_set.txt", row.name = FALSE)

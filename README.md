@@ -20,7 +20,6 @@ Steps in run_analysis.R:
 8. replace label codes in the dataset with text labels determined by step #3
 9. reshape data to use label and subject as identifiers
 10. produce a tidy data set (tidy_data_set.txt) with the average of each variable for each activity/subject combination
-11. produce CodeBook.md with a list of column names (which were taken from features.txt)
 
 Notes:
 For descriptions of data types and how data was collected, check these files included with the original data: README.txt, features_info.txt
